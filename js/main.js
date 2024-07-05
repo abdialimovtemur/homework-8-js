@@ -130,15 +130,15 @@ let values = {
     country: "Uzbekistan",
 };
 
-function exampleFunction(param) {
-    return param;
+function arrayFunction(newValue) {
+    return newValue;
 }
 
-let valueArray = Object.values(values);
+let Arrayvalue = Object.values(values);
 
-let param = exampleFunction(20);
-valueArray.unshift(param);
+let newValue = arrayFunction(20);
+Arrayvalue.unshift(newValue);
 
-valueArray.push(param);
+Arrayvalue.push(newValue);
 
-console.log(valueArray);
+console.log(Arrayvalue);
