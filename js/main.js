@@ -123,22 +123,22 @@
 // 7. Ixtiyoriy function va value lari sonlardan iborat bo'lgan object yaratilsin, va object value laridan tashkil topgan arrayga function parametri ham oxiridan ham boshidan qo'shilsin
 
 
-let values = {
-    firstName: "Temur",
-    lastName: "Abdialimov",
-    age: 20,
-    country: "Uzbekistan",
-};
+// let values = {
+//     firstName: "Temur",
+//     lastName: "Abdialimov",
+//     age: 20,
+//     country: "Uzbekistan",
+// };
 
-function arrayFunction(newValue) {
-    return newValue;
-}
+// function arrayFunction(newValue) {
+//     return newValue;
+// }
 
-let Arrayvalue = Object.values(values);
+// let Arrayvalue = Object.values(values);
 
-let newValue = arrayFunction(20);
-Arrayvalue.unshift(newValue);
+// let newValue = arrayFunction(20);
+// Arrayvalue.unshift(newValue);
 
-Arrayvalue.push(newValue);
+// Arrayvalue.push(newValue);
 
-console.log(Arrayvalue);
+// console.log(Arrayvalue);
